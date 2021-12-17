@@ -1,0 +1,144 @@
+body {
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.page-header {
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+    height: 50px;
+}
+
+
+.main-page {
+    display: grid;
+    width: auto;
+    grid-template-columns: 365px 365px 365px;
+    grid-template-rows: 1fr  1fr;
+    margin-left: 350px;
+    margin-right: 350px;
+    gap: 30px;
+    padding: 50px;
+}
+div {
+    background-color: white;
+   }
+
+.tour-name{
+    color: #000;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hotel-name {
+    color: #808080;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.new-price{
+    font-size: 18px;
+    text-decoration: line-through;
+    background-color: #75c15b;
+    color: white;
+}
+
+.price{
+    position: relative;
+    top: 217px;
+    left: 60px;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #75c15b;
+    color: white;
+}
+
+
+.block {
+    display: grid;
+    grid-template-rows: 248px 40px 30px 30px;
+}
+
+.tour1 {
+    background-image: url("img/tour-list-2-1-365x248.jpg");
+    width: 365px;
+    height: 248px;
+    text-align: center;
+ }
+
+ .tour2 {
+    background-image: url("img/tour-list-2-2-365x248.jpg");
+    width: 365px;
+    height: 248px;
+    text-align: center;
+
+}
+.tour3 {
+    background-image: url("img/tour-list-2-3-365x248.jpg");
+    width: 365px;
+    height: 248px;
+    text-align: center;
+
+}
+.tour4 {
+    background-image: url("img/tour-list-2-4-365x248.jpg");
+    width: 365px;
+    height: 248px;
+    text-align: center;
+
+}
+.tour5 {
+    background-image: url("img/tour-list-2-5-365x248.jpg");
+    width: 365px;
+    height: 248px;
+    text-align: center;
+
+}
+.tour6 {
+    background-image: url("img/tour-list-2-6-365x248.jpg");
+    width: 365px;
+    height: 248px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 365px;
+    margin:auto auto;
+    padding: 10px;
+}
+.rank {
+    width: 40px;
+    margin-right: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #ffa133;
+    border-radius: 20px;
+    text-align: center;
+}
+.reviews {
+    width: 120px;
+    color: #808080;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.calendar{
+    width: 100px;
+    margin-left: auto;
+    color: #808080;
+    font-size: 18px;
+}
+
+
+footer {
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
